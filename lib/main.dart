@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:castro0331/Pantalla3_0331.dart';
 import 'package:castro0331/pantalla2_0331.dart';
 import 'package:castro0331/pantalla1_0331.dart';
 import 'package:castro0331/pantallainicial_0331.dart';
@@ -16,6 +17,7 @@ class MiApp0331 extends StatelessWidget {
         "/": (context) => PantallaInicial_0331(),
         "/Pantalla1_0331": (context) => Pantalla1_0331(),
         "/Pantalla2_0331": (context) => Pantalla2_0331(),
+        "/Pantalla3_0331": (context) => Pantalla3_0331(),
       }, //Fin rutas de pagina
     );
   } //Fin Widget
